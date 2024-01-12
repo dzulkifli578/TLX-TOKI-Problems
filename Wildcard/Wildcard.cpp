@@ -51,6 +51,6 @@ bool match (const std::string &pattern, const std::string &kata)
     if (kata.compare (kata.size () - suffix.size (), suffix.size (), suffix) != 0)
         return 0;
 
-    // jika semua pemeriksaan berhasil, kembalikan true.
+    // jika semua pemeriksaan berhasil, kembalikan true
     return 1;
 }

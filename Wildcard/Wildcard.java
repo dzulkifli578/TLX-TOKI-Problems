@@ -49,7 +49,7 @@ public class Wildcard
         if (!word.endsWith (suffix))
             return false;
 
-        // jika semua pemeriksaan berhasil, kembalikan true.
+        // jika semua pemeriksaan berhasil, kembalikan true
         return true;
     }
 }

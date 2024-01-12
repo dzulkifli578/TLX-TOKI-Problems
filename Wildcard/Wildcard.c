@@ -14,7 +14,7 @@ int main ()
     int N = 0;
     scanf ("%d", &N);
 
-    // membaca kata-kata ke dalam vektor "words"
+    // membaca kata-kata ke dalam array "words"
     char words [N][MAX_LENGTH];
     for (int i = 0; i < N; i++)
         scanf ("%s", words [i]);
@@ -48,6 +48,6 @@ int match (const char *pattern, const char *word)
     // jika tidak sama, kembalikan false
     if (strcmp (word + strlen (word) - suffix_length, pattern + prefix_length + 1) != 0) return 0;
 
-    // jika semua pemeriksaan berhasil, kembalikan true.
+    // jika semua pemeriksaan berhasil, kembalikan true
     return 1;
 }
